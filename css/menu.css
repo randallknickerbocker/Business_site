@@ -2,3 +2,48 @@ body{
 	background-image: url("https://cdn.vectorstock.com/i/composite/10,06/old-fashioned-wallpaper-vector-1701006.jpg");
     background-size:100%;
 }
+
+nav{}
+
+nav ul{
+	list-style:none;
+    padding-top:10px;
+   
+}
+
+nav ul li{
+	background:black;
+	color:white;
+	text-align:center;
+	font-size:18pt;
+    font-family:sans-serif;
+    letter-spacing:2px;
+    width:25%;
+    height:60px;
+    float:left;
+    display:block;
+    padding-top:20px
+    
+}
+
+#img{
+	text-align:center;
+    padding-top:20px;
+
+}
+ 
+nav ul li:hover{
+	background:grey;
+}
+
+
+nav ul{
+	color:black;
+}
+
+footer{
+	background:grey;
+    text-align:center;
+
+}
+
