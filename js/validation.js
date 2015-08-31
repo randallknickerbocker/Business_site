@@ -7,7 +7,7 @@ $(document).ready(function(){
   
  
 
-     email=$("#email").val();
+     email = $("#email").val();
 
 
      validate("email",email );
@@ -21,12 +21,13 @@ $(document).ready(function(){
      console.log( data );
 
      if( data != ""){
-     	
-     }
 
+       console.log("continue validation...")
+    }else
+       console.log("No data provided! Validation exits...")
+ 
+   }
 
-
-
-  }
+}
 
 });
